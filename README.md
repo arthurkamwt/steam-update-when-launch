@@ -29,7 +29,7 @@ The following steps will go through each of these and update them to 1.
 
 ```bash
 # go to your steam install directory (if you have multiple, you'll need to do this for each)
-cd /mnd/d/Steam/steamapps
+cd /mnt/d/Steam/steamapps
 
 # magic!
 sed -i 's/\("AutoUpdateBehavior"\s*\)"."/\1"1"/' `find . -maxdepth 1 -type f -iname '*.acf'`
